@@ -14,8 +14,8 @@ hello:
    ret
 
 quit:
-   mov rax, 0x03c
    mov rdi, 0
+   mov rax, 0x03c
    syscall
   
 
